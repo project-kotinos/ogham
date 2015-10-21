@@ -522,7 +522,7 @@
 		<url>${github.url}</url>
 		<connection>scm:git:${scm.url}</connection>
 		<developerConnection>scm:git:${scm.url}</developerConnection>
-		<tag>HEAD</tag>
+		<tag>v1.0</tag>
 	</scm>
 
 	<issueManagement>
