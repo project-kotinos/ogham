@@ -17,11 +17,31 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.12</version>
+			<groupId>fr.sii.ogham</groupId>
+			<artifactId>ogham-test-utils</artifactId>
+			<version>${oghamVersion}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>fr.sii.ogham</groupId>
+			<artifactId>ogham-test-classpath-runtime</artifactId>
+			<version>${oghamVersion}</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.22.2</version>
+				<configuration>
+					<systemPropertyVariables>
+						<activeFacets>${activeFacets}</activeFacets>
+					</systemPropertyVariables>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>

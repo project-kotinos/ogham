@@ -192,6 +192,7 @@
 		<module>ogham-spring-boot-starter-sms</module>
 		<module>ogham-test-utils</module>
 		<module>ogham-test-utils-internal</module>
+		<module>ogham-test-classpath-runtime</module>
 		<module>ogham-test-classpath</module>
 		<module>reporting</module>
 	</modules>
