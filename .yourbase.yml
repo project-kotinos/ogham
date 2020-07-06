@@ -4,7 +4,6 @@ build_targets:
   - ci/./run-single-module-mutation-tests.sh ogham-test-utils gregor
   - ci/./run-single-module-mutation-tests.sh ogham-core gregor
   - ci/./run-single-module-mutation-tests.sh ogham-template-thymeleaf-common gregor
-  - ci/./run-single-module-mutation-tests.sh ogham-template-thymeleaf-v2 gregor
   - ci/./run-single-module-mutation-tests.sh ogham-template-thymeleaf-v3 gregor
   - ci/./run-single-module-mutation-tests.sh ogham-template-freemarker gregor
   - ci/./run-single-module-mutation-tests.sh ogham-email-javamail gregor
