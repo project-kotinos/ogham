@@ -7,7 +7,6 @@ build_targets:
   - ci/./run-single-module-mutation-tests.sh ogham-template-freemarker gregor
   - ci/./run-single-module-mutation-tests.sh ogham-email-sendgrid-v2 gregor
   - ci/./run-single-module-mutation-tests.sh ogham-email-sendgrid-v4 gregor
-  - ci/./run-single-module-mutation-tests.sh ogham-sms-cloudhopper gregor
   - ci/./run-single-module-mutation-tests.sh ogham-sms-ovh gregor
   - ci/./run-single-module-mutation-tests.sh ogham-sms-smsglobal gregor
   - ci/./run-single-module-mutation-tests.sh ogham-all gregor
