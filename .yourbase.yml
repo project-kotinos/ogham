@@ -9,7 +9,6 @@ build_targets:
   - ci/./run-single-module-mutation-tests.sh ogham-email-sendgrid-v4 gregor
   - ci/./run-single-module-mutation-tests.sh ogham-sms-ovh gregor
   - ci/./run-single-module-mutation-tests.sh ogham-sms-smsglobal gregor
-  - ci/./run-single-module-mutation-tests.sh ogham-all gregor
   - ci/./run-single-module-mutation-tests.sh ogham-spring-boot-v1-autoconfigure gregor
   - ci/./run-single-module-mutation-tests.sh ogham-spring-boot-v2-autoconfigure gregor
   - ci/./generate-documentation.sh
